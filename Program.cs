@@ -35,18 +35,18 @@ namespace douzyuzdohsansekiz
                     break;
             }
 
-            List<string> a = new List<string>();
+            List<string> gruplu = new List<string>();
             if (kaci < kaca)
-                a.Add("0.");
+                gruplu.Add("0.");
 
             for (int i = 0; i < sonuc.Length; i += 3)
             {
                 if ((i + 3) < sonuc.Length)
-                    a.Add(sonuc.Substring(i, 3));
+                    gruplu.Add(sonuc.Substring(i, 3));
                 else
-                    a.Add(sonuc.Substring(i));
+                    gruplu.Add(sonuc.Substring(i));
             }
-            return string.Join(" ", a);
+            return string.Join(" ", gruplu);
         }
     }
 }
