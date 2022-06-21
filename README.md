@@ -1,4 +1,4 @@
-# douzyuzdohsansekiz
+# dohuzyuzdohsansekiz
 
 1/998001 sayısının bölüm sonucu ilginç şekilde ardışıl rakamlardan oluşuyor ama bu dizinin içinde 998 eksik.
 000 001 002 diye gidiyor 986 987 988 989 990 991 992 993 994 995 996 997 999 derken 998 yok
